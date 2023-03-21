@@ -3,3 +3,33 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.header__container {
+  background-color: red;
+
+  width: 100%;
+}
+.header__title {
+}
+.header__subtitle {
+}
+.header__logo {
+  width: 10%;
+  margin: 0 auto;
+}
+.nav__container {
+  display: flex;
+  background-color: blueviolet;
+  align-items: flex-end;
+  justify-content: center;
+}
+.nav__ul {
+  display: flex;
+  list-style: none;
+  font-size: 30px;
+  padding: 20px;
+}
+.nav__item {
+  color: white;
+  text-decoration: none;
+}
