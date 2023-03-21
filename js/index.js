@@ -1,4 +1,4 @@
-function pedirCaja() {
+function leerPresupuesto() {
   let nombre = document.getElementById("nombre").value;
   let material = document.getElementById("material").value;
 
@@ -48,7 +48,6 @@ function pedirCaja() {
 const formulario = document.getElementById("presupuesto");
 
 formulario.addEventListener("submit", function (event) {
-  event.preventDefault(); // Prevenir el comportamiento por defecto del formulario
-  pedirCaja();
-  // Aquí va el código para capturar y procesar los datos del formulario
+  event.preventDefault();
+  leerPresupuesto();
 });
