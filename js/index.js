@@ -24,6 +24,7 @@ function pedirCaja() {
   }
 
   let cantidad = document.getElementById("cantidad").value;
+  let encuadernado = document.getElementById("encuadernado").value;
   let comentarios = document.getElementById("comentarios").value;
 
   let pedido =
@@ -32,11 +33,22 @@ function pedirCaja() {
     cantidad +
     " fotocopias " +
     colorSeleccionado +
-    " en " +
+    " en papel " +
     material +
-    " tamanio " +
+    " tamaño " +
     tamanioSeleccionado +
-    ". " +
+    " " +
+    encuadernado +
+    " encuadernado." +
+    " " +
     comentarios;
   document.getElementById("pedido").value = pedido;
 }
+
+const formulario = document.getElementById("presupuesto");
+
+formulario.addEventListener("submit", function (event) {
+  event.preventDefault(); // Prevenir el comportamiento por defecto del formulario
+  pedirCaja();
+  // Aquí va el código para capturar y procesar los datos del formulario
+});

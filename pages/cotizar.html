@@ -22,13 +22,21 @@
     </header>
 
     <main>
+      <h2>Fotocopias</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla iusto
+        ratione ipsam facilis sapiente incidunt, atque doloremque obcaecati
+        nihil quae natus consequatur suscipit? Officia praesentium autem, minus
+        adipisci dicta facere.
+      </p>
+      <img src="../imagenes/descarga.jpg" alt="" />
       <br />
       <h2>Cotizar Fotocopias</h2>
       <br />
       <div>
-        <form action="">
+        <form action="" id="presupuesto">
           <label for="nombre">Nombre del cliente:</label><br />
-          <input type="text" name="nombre" id="nombre" /><br /><br />
+          <input type="text" name="nombre" id="nombre" required /><br /><br />
           <label for="material">Tipo de papel:</label>
           <select name="material" id="material">
             <option value="comun">Comun</option>
@@ -38,22 +46,43 @@
           </select>
           <br />
           <br />
-          <label for="colorNegro">Color / Negro :</label><br />
-          <input type="radio" name="colorNegro" id="colorNegro" value="color" />
-          <label for="colorNegro">Color</label><br />
-          <input type="radio" name="colorNegro" id="colorNegro" value="negro" />
+          <label for="colorNegro">Negro / Color :</label><br />
+          <input
+            type="radio"
+            name="colorNegro"
+            id="colorNegro"
+            value="negro"
+            required
+          />
           <label for="colorNegro">Negro</label><br />
+          <input type="radio" name="colorNegro" id="colorNegro" />
+          <label for="colorNegro">Color</label><br />
           <br />
-          <label for="tamanios">Tamanio de la hoja :</label><br />
-          <input type="radio" name="tamanio" id="tamanio" value="a4" />
+          <label for="tamanios">Tamaño de la hoja :</label><br />
+          <input type="radio" name="tamanio" id="tamanio" value="A4" required />
           <label for="tamanio">A4</label><br />
-          <input type="radio" name="tamanio" id="tamanio" value="a3" />
+          <input type="radio" name="tamanio" id="tamanio" value="A3" />
           <label for="tamanio">A3</label><br />
-          <input type="radio" name="tamanio" id="tamanio" value="carta" />
-          <label for="tamanio">Carta</label><br />
+          <input type="radio" name="tamanio" id="tamanio" value="oficio" />
+          <label for="tamanio">Oficio</label><br />
           <br />
           <label for="cantidad">Cantidad de copias:</label><br />
-          <input type="number" name="cantidad" id="cantidad" /><br />
+          <input
+            type="number"
+            name="cantidad"
+            id="cantidad"
+            min="1"
+            value="1"
+          /><br />
+          <br />
+          <label for="encuadernado">Encuadernado: </label>
+          <select name="encuadernado" id="encuadernado" required>
+            <option value="">Seleccione una opción</option>
+            <option value="sin">No</option>
+            <option value="con">Si</option>
+          </select>
+          <br />
+          <br />
           <label for="comentarios">Comentarios</label><br />
           <textarea
             name="comentarios"
@@ -62,7 +91,9 @@
             rows="3"
           ></textarea
           ><br />
-          <input type="button" value="Enviar" onclick="pedirCaja()" />
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Limpiar" />
+          <br />
           <textarea name="pedido" id="pedido" cols="100" rows="1"></textarea>
         </form>
       </div>
