@@ -69,3 +69,56 @@ body {
 .nav__link:hover {
   font-weight: bold;
 }
+
+/* footer  */
+/*
+.background {
+  background: linear-gradient(
+      hsla(301, 59%, 70%, 0.5),
+      hsla(301, 59%, 70%, 0.5)
+    ),
+    url(../imagenes/logoTR.png);
+  /*background-size: 100%;*/
+/*
+  background-position: center;
+  background-repeat: inherit;
+}*/
+.main__container {
+  position: relative;
+}
+.container__bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #bd35bb6e;
+  background-image: url(../imagenes/logoTR.png);
+  background-position: center;
+  background-repeat: space;
+  border: 3px solid blue;
+  opacity: 0.3;
+}
+
+.contacto__title {
+  font-style: italic;
+  font-weight: bolder;
+  margin-left: 200px;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+div form {
+  margin-left: 60px;
+  text-align: justify;
+}
+
+.contacto__container {
+  color: #3a1cac;
+  padding-left: 50px;
+  padding: 15px;
+}
+
+/*   footer  */
+.footer__container {
+  background-color: var(--color1);
+  width: 100%;
+}

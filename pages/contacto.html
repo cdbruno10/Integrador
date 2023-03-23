@@ -9,64 +9,101 @@
   </head>
   <body>
     <header class="header__container">
-      <h1 class="logo">Tu empresa (+logo)</h1>
-      <nav>
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="./empresa.html">Empresa</a></li>
-          <li><a href="./personal.html">Personal</a></li>
-          <li><a href="./cotizar.html">Cotizar</a></li>
-          <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <div class="head__group">
+          <img
+            class="header__logo"
+            src="../imagenes/logo.png"
+            alt="logo de la empresa"
+          />
+          <div class="title__container">
+            <h1 class="header__title">El Faro</h1>
+            <h2 class="header__subtitle">Librería y Juguetería</h2>
+          </div>
+        </div>
+        <nav class="nav__container">
+          <ul class="nav__list">
+            <li>
+              <a class="nav__link" href="../index.html">Inicio</a>
+            </li>
+            <li>
+              <a class="nav__link" href="./empresa.html">Empresa</a>
+            </li>
+            <li>
+              <a class="nav__link" href="./personal.html">Personal</a>
+            </li>
+            <li>
+              <a class="nav__link" href="./cotizar.html">Cotizar</a>
+            </li>
+            <li>
+              <a class="nav__link" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <main>
-      <h2>Contacto</h2>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3440.3508543890866!2d-64.35331998255616!3d-30.426154399999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942dff10a587a7c5%3A0xfbc37697ef9bbf2f!2sLibreria%20El%20Faro%20-%20Jugueteria!5e0!3m2!1ses!2sar!4v1679409183945!5m2!1ses!2sar"
-        width="600"
-        height="450"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
-      <div>
-        <form action="">
-          >
-          <label for="nombre">Nombre</label>
-          <input type="text" name="name" />
+    <main class="main __container">
+      <div class="container__bg"></div>
+      <div class="container">
+        <h2 class="contacto__title">Contacto</h2>
 
-          <label for="email">Correo Electrónico</label>
-          <input type="email" name="email" />
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3440.3508543890866!2d-64.35331998255616!3d-30.426154399999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942dff10a587a7c5%3A0xfbc37697ef9bbf2f!2sLibreria%20El%20Faro%20-%20Jugueteria!5e0!3m2!1ses!2sar!4v1679409183945!5m2!1ses!2sar"
+          width="550"
+          height="350"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
 
-          <label for="subject">Asunto</label>
-          <input type="text" name="subject" />
+        <div class="contacto__container">
+          <form action="">
+            <label for="nombre">Nombre</label><br />
+            <input type="text" name="name" />
+            <br />
+            <label for="email">Correo Electrónico</label><br />
+            <input type="email" name="email" />
+            <br />
+            <label for="subject">Asunto</label><br />
+            <input type="text" name="subject" />
+            <br />
+            <label for="comments">Mensaje</label><br />
+            <textarea name="comments" couls="15" rows="10"></textarea>
 
-          <label for="comments">Mensaje</label>
-          <textarea name="comments" couls="15" rows="5"></textarea>
-
-          <input type="submit" value="Enviar" />
-        </form>
+            <input type="submit" value="Enviar" />
+          </form>
+        </div>
       </div>
     </main>
 
-    <footer>
-      <div>
-        <section><h5>Tu empresa (logo)</h5></section>
-        <section>
-          <h5>Direccion</h5>
-          <h5>Telefono</h5>
-          <h5>Coreo</h5>
-        </section>
-        <section>
-          <h5>Whatssapp</h5>
-          <h5>Facebook</h5>
-          <h5>Instagram</h5>
-        </section>
+    <footer class="footer__container">
+      <div class="container">
+        <div class="footer__subContainer">
+          <section class="footer__logo">
+            <h5>El Faro</h5>
+            <h6>Librería y Juguetería</h6>
+            <img src="./imagenes/logo.png" alt="Logo de la empresa" />
+          </section>
+          <section class="footer__datos">
+            <h5>Sáenz Peña 251. Centro. Deán Funes, Córdoba</h5>
+            <h5>Teléfono: 3521 423641</h5>
+            <h5>Mail: elfarojugueteria@outlook.com</h5>
+          </section>
+          <section class="footer__redes">
+            <h5>Whatsapp: 3521 539002</h5>
+            <h5>
+              Horario Chat Online Whatsapp: 8 a 13.30hs y 17.00hs a 21.30hs
+            </h5>
+            <h5>Faceboock: /elfarolibreriayjugueteria</h5>
+            <h5>Instagram: /libreriaelfaro</h5>
+          </section>
+        </div>
+        <h6 class="footer__dev">
+          Desarrollo: Comision 11 - Argentina Programa UTN 2023
+        </h6>
       </div>
-      <h6>Desarrollo: Comision 11 - Argentina Programa UTN 2023</h6>
     </footer>
     <script src="../js/index.js"></script>
   </body>
