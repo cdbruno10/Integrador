@@ -150,6 +150,41 @@ div form {
   padding: 15px;
 }
 
+/*  MAIN EMPRESA */
+
+
+.empresa__main__title1 {
+
+  padding-top: 40px;
+  color:#3a1cac;
+}
+.empresa__main__title2 {
+  margin-top: 30px;
+  color:#3a1cac;
+
+}
+.empresa__texto {
+  font-size: 20px;
+  margin-top: 30px;
+  color:#3a1cac;
+  text-align: justify;
+}
+.empresa__foto {
+
+  width: 40%;
+  padding: 50px 0 60px 0;
+  margin-left: 50px;
+  margin-right:45px;
+
+
+}
+
+.empresa__foto2 {
+  width: 39%;
+  margin: 60px;
+
+  }
+
 /*      footer      */
 
 .footer__container {
