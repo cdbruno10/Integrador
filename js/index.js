@@ -27,6 +27,65 @@ function leerPresupuesto() {
   let encuadernado = document.getElementById("encuadernado").value;
   let comentarios = document.getElementById("comentarios").value;
 
+  /*      calculos de costo   */
+  if (
+    (material == "comun") &
+    (colorSeleccionado == "negro") &
+    (tamanioSeleccionado != "A3")
+  ) {
+    seleccion = 15;
+  } else if (
+    (material != "comun") &
+    (colorSeleccionado == "negro") &
+    (tamanioSeleccionado != "A3")
+  ) {
+    seleccion = 30;
+  } else if (
+    (material == "comun") &
+    (colorSeleccionado == "color") &
+    (tamanioSeleccionado != "A3")
+  ) {
+    seleccion = 40;
+  } else if (
+    (material != "comun") &
+    (colorSeleccionado == "color") &
+    (tamanioSeleccionado != "A3")
+  ) {
+    seleccion = 55;
+  } else if (
+    (material == "comun") &
+    (colorSeleccionado == "negro") &
+    (tamanioSeleccionado == "A3")
+  ) {
+    seleccion = 30;
+  } else if (
+    (material == "comun") &
+    (colorSeleccionado == "color") &
+    (tamanioSeleccionado == "A3")
+  ) {
+    seleccion = 80;
+  } else if (
+    (material != "comun") &
+    (colorSeleccionado == "negro") &
+    (tamanioSeleccionado == "A3")
+  ) {
+    seleccion = 150;
+  } else if (
+    (material != "comun") &
+    (colorSeleccionado == "color") &
+    (tamanioSeleccionado == "A3")
+  ) {
+    seleccion = 250;
+  }
+
+  if (encuadernado == "sin") {
+    encuadernadoPesos = 0;
+  } else {
+    encuadernadoPesos = 300;
+  }
+
+  let presupuesto = seleccion * cantidad + encuadernadoPesos;
+
   let pedido =
     nombre +
     " ha pedido " +
@@ -41,7 +100,9 @@ function leerPresupuesto() {
     encuadernado +
     " encuadernado." +
     " " +
-    comentarios;
+    comentarios +
+    " El presupuesto es de $ " +
+    presupuesto;
   document.getElementById("pedido").value = pedido;
 }
 

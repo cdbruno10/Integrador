@@ -19,7 +19,7 @@ body {
   width: 100%;
 }
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   max-width: 1360px;
 }
@@ -73,61 +73,6 @@ body {
   font-weight: bold;
 }
 
-/* footer  */
-/*
-.background {
-  background: linear-gradient(
-      hsla(301, 59%, 70%, 0.5),
-      hsla(301, 59%, 70%, 0.5)
-    ),
-    url(../imagenes/logoTR.png);
-  /*background-size: 100%;*/
-/*
-  background-position: center;
-  background-repeat: inherit;
-}*/
-
-.main__container {
-  position: relative;
-}
-.container__bg {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-color: #bd35bb6e;
-  background-image: url(../imagenes/logoTR.png);
-  background-position: center;
-  background-repeat: space;
-  border: 3px solid blue;
-  opacity: 0.3;
-  z-index: -1;
-}
-
-.contacto__title {
-  font-style: italic;
-  font-weight: bolder;
-  margin-left: 200px;
-  padding: 15px;
-  border: 1px solid black;
-}
-
-div form {
-  margin-left: 60px;
-  text-align: justify;
-}
-
-.contacto__container {
-  color: #3a1cac;
-  padding-left: 50px;
-  padding: 15px;
-}
-
-/*   footer  */
-.footer__container {
-  background-color: var(--color1);
-  width: 100%;
-}
-
 /*       main index    */
 
 .main__list {
@@ -149,4 +94,55 @@ div form {
 }
 .main__link:hover {
   color: var(--color4);
+}
+
+/*    main empresa    */
+
+/*    main productos    */
+
+/*    main cotiar    */
+
+.cotizar__container {
+  font-size: 20px;
+  margin: 40px 0 40px;
+}
+.cotizar__title {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+/*    main contacto    */
+
+/*      footer      */
+
+.footer__container {
+  background-color: #db35bb;
+}
+.footer__subContainer {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+  align-items: center;
+}
+.footer__logo {
+  width: 280px;
+  height: 280px;
+}
+.footer__datos {
+  font-size: 28px;
+  line-height: 50px;
+}
+.footer__redes i,
+.footer__redes a {
+  font-size: 18px;
+  text-decoration: none;
+  margin-top: 19px;
+}
+.footer__creditos {
+  margin-top: 20px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  background-color: black;
 }
