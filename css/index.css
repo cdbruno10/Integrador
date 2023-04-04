@@ -135,19 +135,27 @@ body {
   font-style: italic;
   font-weight: bolder;
   margin-left: 200px;
-  padding: 15px;
-  border: 1px solid black;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  
 }
 
 div form {
   margin-left: 60px;
   text-align: justify;
+  
 }
 
 .contacto__container {
   color: #3a1cac;
-  padding-left: 50px;
-  padding: 15px;
+  margin-bottom: 50px;
+  padding-right: 300px  ;
+  float: right;
+  
+}
+.mapa {
+ 
+  padding-bottom: 50px;
 }
 
 /*  MAIN EMPRESA */
