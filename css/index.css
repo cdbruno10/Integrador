@@ -113,6 +113,9 @@ body {
 .main__link:hover {
   color: var(--color4);
 }
+.hero {
+  padding-top: 50px;
+}
 
 /*    main empresa    */
 
@@ -137,71 +140,50 @@ body {
   margin-left: 200px;
   padding-top: 50px;
   padding-bottom: 30px;
-  
 }
 
 div form {
   margin-left: 60px;
   text-align: justify;
-  
 }
 
 .contacto__container {
   color: #3a1cac;
   margin-bottom: 50px;
-  padding-right: 300px  ;
+  padding-right: 300px;
   float: right;
-  
 }
 .mapa {
- 
   padding-bottom: 50px;
 }
 
-.hero {
-  background: #a692f5;
-  margin: 30px 60px 20px 60px;
- 
-}
-
-
-  
-
-
 /*  MAIN EMPRESA */
 
-
 .empresa__main__title1 {
-
   padding-top: 40px;
-  color:#3a1cac;
+  color: #3a1cac;
 }
 .empresa__main__title2 {
   margin-top: 30px;
-  color:#3a1cac;
-
+  color: #3a1cac;
 }
 .empresa__texto {
   font-size: 20px;
   margin-top: 30px;
-  color:#3a1cac;
+  color: #3a1cac;
   text-align: justify;
 }
 .empresa__foto {
-
   width: 40%;
   padding: 50px 0 60px 0;
   margin-left: 50px;
-  margin-right:45px;
-
-
+  margin-right: 45px;
 }
 
 .empresa__foto2 {
   width: 39%;
   margin: 60px;
-
-  }
+}
 
 /*      footer      */
 
