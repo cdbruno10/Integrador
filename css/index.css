@@ -3,7 +3,6 @@
   --color2: #f8002c;
   --color3: #bd35bb;
   --color4: #fbe029;
-  --color5: white;
 }
 
 * {
@@ -67,7 +66,7 @@ body {
 }
 
 .nav__link {
-  color: var(--color4);
+  color: var(--color2);
   text-decoration: none;
   margin-left: 20px;
 }
