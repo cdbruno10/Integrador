@@ -1,8 +1,10 @@
 :root {
-  --color1: #3a1cac;
+  --color1: #0927AE;
   --color2: #f8002c;
   --color3: #bd35bb;
   --color4: #fbe029;
+  --color5: white;
+  
 }
 
 * {
@@ -44,13 +46,20 @@ body {
   font-weight: bold;
 }
 .header__subtitle {
-  color: var(--color3);
+  color: var(--color4);
   margin-top: 10px;
   font-size: 25px;
 }
 .header__logo {
-  width: 12%;
-  margin-top: 10px;
+  width: 18%;
+  margin-top: 40px;
+}
+.header__nombre {
+
+  width:  240px;
+  margin-top: 20px;
+  margin-left: 20px;
+
 }
 
 .nav__container {
@@ -66,9 +75,9 @@ body {
 }
 
 .nav__link {
-  color: var(--color2);
+  color: var(--color5);
   text-decoration: none;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 .nav__link:hover {
   font-weight: bold;
