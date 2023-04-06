@@ -1,10 +1,9 @@
 :root {
-  --color1: #0927AE;
+  --color1: #0927ae;
   --color2: #f8002c;
   --color3: #bd35bb;
   --color4: #fbe029;
   --color5: white;
-  
 }
 
 * {
@@ -16,6 +15,8 @@ body {
   /*font-family: "Courier New", Courier, monospace;*/
   font-family: "Ubuntu", sans-serif;
 }
+
+/*      header      */
 .header__container {
   background-color: var(--color1);
   width: 100%;
@@ -32,52 +33,35 @@ body {
 .head__group {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  height: 100px;
+  align-items: flex-end;
+  height: 100%;
+  justify-content: space-between;
 }
-.title__container {
-  display: block;
-  text-align: center;
-  margin-left: 30%;
-}
-.header__title {
-  color: var(--color3);
-  font-size: 40px;
-  font-weight: bold;
-}
-.header__subtitle {
-  color: var(--color4);
-  margin-top: 10px;
-  font-size: 25px;
-}
+
 .header__logo {
-  width: 18%;
-  margin-top: 40px;
+  width: 15%;
+  margin-top: 10px;
 }
 .header__nombre {
-
-  width:  240px;
-  margin-top: 20px;
-  margin-left: 20px;
-
+  width: 18%;
+  margin-top: 10px;
 }
 
 .nav__container {
+  width: 80%;
   display: flex;
   justify-content: center;
 }
 .nav__list {
   display: flex;
   list-style: none;
-  font-size: 20px;
-  padding: 10px;
-  justify-content: space-between;
+  font-size: 1.5em;
 }
 
 .nav__link {
   color: var(--color5);
   text-decoration: none;
-  margin-left: 30px;
+  margin: 0 20px 0 20px;
 }
 .nav__link:hover {
   font-weight: bold;
@@ -105,23 +89,26 @@ body {
 
 .main__list {
   display: flex;
-  justify-content: center;
-  padding: 20px;
+  justify-content: space-around;
+  padding: 15px;
 }
 .main__link {
   background-color: var(--color3);
   color: white;
-  font-size: 30px;
+  font-size: 2rem;
   text-decoration: none;
   text-align: center;
   border-radius: 15px;
-  width: 300px;
-  margin-left: 50px;
-  padding: 20px 50px;
+  width: 25%;
+  margin: 0 auto;
+  padding: 15px;
 }
+
 .main__link:hover {
   color: var(--color4);
 }
+
+/*      main index      */
 .hero {
   padding-top: 50px;
 }
@@ -133,6 +120,7 @@ body {
 /*    main cotizar    */
 
 .cotizar__container {
+  padding-top: 50px;
   font-size: 20px;
   padding: 40px 0 40px;
 }
