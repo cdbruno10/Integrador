@@ -1,7 +1,7 @@
 :root {
   --color1: #0927ae;
   --color2: #f8002c;
-  --color3: #bd35bb;
+  --color3: #af15ad;
   --color4: #fbe029;
   --color5: white;
 }
@@ -72,6 +72,19 @@ body {
 .main__container {
   position: relative;
 }
+.productos__libreria1 {
+  width: 40%;
+  padding: 50px 0 60px 0;
+  margin-left: 50px;
+  margin-right: 45px;
+}
+.productos__libreria2 {
+  width: 40%;
+  padding: 50px 0 60px 0;
+  margin-left: 50px;
+  margin-right: 45px;
+}
+
 .container__bg {
   width: 100%;
   height: 100%;
