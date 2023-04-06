@@ -132,9 +132,9 @@ body {
 /*    main contacto    */
 
 .contacto__title {
-  font-style: italic;
+  
   font-weight: bolder;
-  margin-left: 200px;
+  margin-left: 100px;
   padding-top: 50px;
   padding-bottom: 30px;
 }
@@ -142,16 +142,18 @@ body {
 div form {
   margin-left: 60px;
   text-align: justify;
+  
 }
 
 .contacto__container {
   color: #3a1cac;
-  margin-bottom: 50px;
-  padding-right: 300px;
-  float: right;
+  float: left;
+  
+
 }
 .mapa {
   padding-bottom: 50px;
+  padding-left: 100px;
 }
 
 /*  MAIN EMPRESA */
