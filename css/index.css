@@ -79,10 +79,17 @@ body {
   margin-right: 45px;
 }
 .productos__libreria2 {
-  width: 30%;
+  width: 40%;
   padding: 50px 0 60px 0;
   margin-left: 50px;
   margin-right: 45px;
+}
+.productos__juguetes1 {
+  width: 30%;
+  padding: 50px 0 60px 0;
+  margin-left: 50px;
+  margin-right: 45px
+  
 }
 
 .container__bg {
@@ -186,15 +193,18 @@ div form {
   text-align: justify;
 }
 .empresa__foto {
-  width: 40%;
+  width: 35%;
   padding: 50px 0 60px 0;
-  margin-left: 50px;
-  margin-right: 45px;
+  margin-left: 8%;
+  margin-right: 70px;
 }
 
 .empresa__foto2 {
-  width: 39%;
-  margin: 60px;
+  width: 35%;
+  padding: 50px 0 60px 0;
+  margin-left: 10%;
+  margin-right: 20px;
+  
 }
 
 /*      footer      */
