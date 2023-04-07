@@ -1,3 +1,5 @@
+document.permissionsPolicy = "interest-cohort=()";
+
 // Obtener el nombre de la sub-página actual
 const pathname = window.location.pathname;
 
