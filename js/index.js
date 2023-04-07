@@ -1,3 +1,28 @@
+// Obtener el nombre de la sub-página actual
+const pathname = window.location.pathname;
+
+// Cambiar el color de texto del nav según la sub-página actual
+switch (pathname) {
+  case "/index.html":
+    inicio.style.color = "orange";
+    break;
+  case "/pages/empresa.html":
+    empresa.style.color = "red";
+    break;
+  case "/pages/productos.html":
+    productos.style.color = "limegreen";
+    break;
+  case "/pages/cotizar.html":
+    cotizar.style.color = "dodgerblue";
+    break;
+  case "/pages/contacto.html":
+    contacto.style.color = "violet";
+    break;
+  default:
+    inicio.style.color = "red";
+    break;
+}
+
 function leerPresupuesto() {
   let nombre = document.getElementById("nombre").value;
   let material = document.getElementById("material").value;
