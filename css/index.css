@@ -112,7 +112,7 @@ body {
   padding: 15px;
 }
 .main__link {
-  background-color: var(--color3);
+  background-color: var(--color1);
   color: white;
   font-size: 2rem;
   text-decoration: none;
@@ -220,22 +220,40 @@ div form {
   height: 160px;
   margin-left: -35px;
 }
+
 .footer__datos {
-  font-size: 28px;
+  font-size: 16px;
   line-height: 50px;
+}
+
+.llamado{
+  font-size: 20px;
+  color: black
+}
+
+.redes__sociales{
+  font-size: 20px;
+  margin-top: 20px;
+  color: black
+
+}
+
+.informacion {
+  font-size: 16px;
+  color: black
 }
 .footer__redes i,
 .footer__redes a {
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: none;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .footer__creditos {
   margin-top: 20px;
-  color: white;
+  color: rgb(209, 209, 209);
   padding: 6px;
   text-align: center;
   font-size: 14px;
-  background-color: var(--color1);
+  background-color: rgb(7, 7, 124, 0.925);
 }
