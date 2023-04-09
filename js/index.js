@@ -21,7 +21,7 @@ switch (pathname) {
     contacto.style.color = "violet";
     break;
   default:
-    inicio.style.color = "red";
+    inicio.style.color = "orange";
     break;
 }
 
@@ -131,6 +131,13 @@ function leerPresupuesto() {
     " El presupuesto es de $ " +
     presupuesto;
   document.getElementById("pedido").value = pedido;
+
+  //    genero el pdf
+
+  var doc = new jsPDF();
+  doc.setFontSize(8);
+  doc.text(10, 10, pedido, { maxWidth: 80 });
+  doc.save("Presupuesta de fotocopias.pdf");
 }
 
 const formulario = document.getElementById("presupuesto");

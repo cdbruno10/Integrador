@@ -146,7 +146,7 @@ body {
 .cotizar__title {
   font-size: 30px;
   margin-bottom: 30px;
-  color:#0927ae
+  color: #0927ae;
 }
 
 /*    main contacto    */
@@ -156,7 +156,7 @@ body {
   margin-left: 60px;
   padding-top: 50px;
   padding-bottom: 30px;
-  color:#0927ae
+  color: #0927ae;
 }
 
 div form {
@@ -226,21 +226,20 @@ div form {
   line-height: 50px;
 }
 
-.llamado{
+.llamado {
   font-size: 20px;
-  color: black
+  color: black;
 }
 
-.redes__sociales{
+.redes__sociales {
   font-size: 20px;
   margin-top: 20px;
-  color: black
-
+  color: black;
 }
 
 .informacion {
   font-size: 16px;
-  color: black
+  color: black;
 }
 .footer__redes i,
 .footer__redes a {
