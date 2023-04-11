@@ -254,10 +254,23 @@ div form {
 }
 
 .footer__creditos {
+  text-decoration: none;
   margin-top: 20px;
   color: rgb(209, 209, 209);
   padding: 6px;
   text-align: center;
-  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
   background-color: rgb(7, 7, 124, 0.925);
+}
+.footer__creditos a {
+  color: rgb(209, 209, 209);
+}
+
+.footer__creditos a:hover {
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--color4);
+  font-weight: bolder;
 }
