@@ -311,8 +311,11 @@ div form {
 
   /*      cotizar   */
 
+  #comentarios {
+    width: 90%;
+  }
   #pedido {
-    width: 80%;
+    width: 90%;
   }
 
   /*      footer    */
