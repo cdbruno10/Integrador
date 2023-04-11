@@ -229,70 +229,63 @@ div form {
 .footer__subContainer {
   display: flex;
   justify-content: space-between;
-  column-gap: 30px;
-  align-items: center;
-  height: 160px;
+  height: 180px;
+  color: black;
+  font-size: 19px;
 }
+
 .footer__logo img {
-  width: 220px;
-  height: 160px;
-  margin-left: -35px;
+  height: 100%;
 }
 
 .footer__datos {
-  font-size: 16px;
-  line-height: 40px;
-  margin-top: 10px;
+  display: flex;
+  height: 100%;
+  align-items: center;
 }
 
-.llamado {
-  font-size: 20px;
-  color: black;
+.footer__redes {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
 }
 
-.redes__sociales {
-  font-size: 20px;
-  line-height: 0px;
-  margin-top: 40px;
-  color: black;
-}
-
-.informacion {
-  font-size: 16px;
-  line-height: 30px;
-  color: black;
-}
 .footer__redes i,
-.footer__redes a {
-  font-size: 16px;
+.footer__redes a,
+.footer__datos a {
   text-decoration: none;
-  margin-top: 0px;
+  color: black;
+}
+
+.footer__datos a:hover:hover,
+.footer__redes a:hover:hover {
+  font-size: 20px;
+  color: var(--color1);
+  font-weight: bolder;
 }
 
 .footer__creditos {
   text-decoration: none;
-  margin-top: 20px;
   color: rgb(209, 209, 209);
   padding: 6px;
   text-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: 15px;
-  background-color: rgb(7, 7, 124, 0.925);
+  font-size: 18px;
+  background-color: var(--color1);
 }
 .footer__creditos a {
   color: rgb(209, 209, 209);
 }
 
 .footer__creditos a:hover {
-  font-size: 16px;
+  font-size: 20px;
   text-decoration: none;
   color: var(--color4);
   font-weight: bolder;
 }
 @media (max-width: 1024px) {
   .header__container {
-    background-color: red;
     width: 100%;
     height: 120px;
   }
@@ -310,15 +303,24 @@ div form {
     padding: 6px;
   }
   .main__link {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     border-radius: 15px;
     width: 25%;
     padding: 10px;
   }
+
+  /*      footer    */
+
+  .footer__subContainer {
+    height: 170px;
+    font-size: 13px;
+  }
+  .footer__logo img {
+    height: 80%;
+  }
 }
 @media (max-width: 640px) {
   .header__container {
-    background-color: green;
     width: 100%;
     height: 80px;
   }
@@ -346,5 +348,24 @@ div form {
 
   .main__link {
     font-size: 1rem;
+  }
+
+  /*      footer    */
+
+  .footer__subContainer {
+    height: 150px;
+    font-size: 13px;
+  }
+  .footer__logo img {
+    display: none;
+  }
+
+  .footer__creditos {
+    padding: 6px;
+    font-size: 15px;
+  }
+
+  .footer__creditos a:hover {
+    font-size: 17px;
   }
 }
