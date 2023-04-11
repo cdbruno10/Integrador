@@ -90,6 +90,18 @@ body {
   margin-left: 50px;
   margin-right: 45px;
 }
+.productos__fotocopias1 {
+  width: 30%;
+  padding: 50px 0 60px 0;
+  margin-left: 50px;
+  margin-right: 45px;
+}
+.productos__fotocopias2 {
+  width: 30%;
+  padding: 50px 0 60px 0;
+  margin-left: 50px;
+  margin-right: 45px;
+}
 
 .container__bg {
   width: 100%;
