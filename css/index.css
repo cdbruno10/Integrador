@@ -309,6 +309,12 @@ div form {
     padding: 10px;
   }
 
+  /*      cotizar   */
+
+  #pedido {
+    width: 80%;
+  }
+
   /*      footer    */
 
   .footer__subContainer {
@@ -316,7 +322,7 @@ div form {
     font-size: 13px;
   }
   .footer__logo img {
-    height: 80%;
+    height: 100%;
   }
 }
 @media (max-width: 640px) {
