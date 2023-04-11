@@ -303,7 +303,7 @@ div form {
     padding: 6px;
   }
   .main__link {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     border-radius: 15px;
     width: 25%;
     padding: 10px;
@@ -322,7 +322,7 @@ div form {
 @media (max-width: 640px) {
   .header__container {
     width: 100%;
-    height: 80px;
+    height: 60px;
   }
   .head__group {
     display: flex;
@@ -332,14 +332,14 @@ div form {
     justify-content: space-around;
   }
   .nav__container {
-    padding-left: 30px;
+    padding-left: 10px;
   }
   .nav__list {
     font-size: 0.9em;
   }
 
   .nav__link {
-    padding: 0.9px;
+    padding: 2px;
   }
   .header__logo {
     display: none;
@@ -347,14 +347,14 @@ div form {
   /*       main index    */
 
   .main__link {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   /*      footer    */
 
   .footer__subContainer {
     height: 150px;
-    font-size: 13px;
+    font-size: 11px;
   }
   .footer__logo img {
     display: none;
@@ -362,10 +362,10 @@ div form {
 
   .footer__creditos {
     padding: 6px;
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .footer__creditos a:hover {
-    font-size: 17px;
+    font-size: 14px;
   }
 }
