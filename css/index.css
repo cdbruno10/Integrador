@@ -188,20 +188,22 @@ body {
 
 /*    main contacto    */
 
-.contacto__title {
-  font-weight: bolder;
-  padding-top: 50px;
-  padding-bottom: 30px;
-  color: #0927ae;
-}
-
 .contacto__container {
   min-width: 375px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 
-  padding-bottom: 60px;
+  padding-bottom: 40px;
+  border: 1px solid black;
+}
+
+.contacto__title {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #0927ae;
 }
 
 .contacto {
@@ -393,7 +395,7 @@ iframe {
   .contacto__container {
     flex-direction: column;
     align-items: center;
-    row-gap: 30px;
+    row-gap: 10px;
   }
 
   /*      footer    */
