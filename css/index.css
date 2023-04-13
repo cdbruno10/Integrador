@@ -188,7 +188,7 @@ body {
 }
 
 div form {
-  margin-left: 60px;
+  margin-left: 20px;
   text-align: justify;
 }
 
@@ -197,7 +197,7 @@ div form {
   float: left;
 }
 .mapa {
-  padding-bottom: 50px;
+  padding-bottom: 60px;
   padding-left: 100px;
 }
 
@@ -369,6 +369,20 @@ div form {
 
   .main__link {
     font-size: 0.9rem;
+  }
+
+   /*       main contacto   */
+   .mapa {
+    width: 50%;
+  }
+
+  .contacto__container {
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+  .main__container {
+    flex-direction: column;
+    display: flex;
   }
 
   /*      footer    */
