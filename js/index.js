@@ -132,17 +132,24 @@ function leerPresupuesto() {
     presupuesto;
   document.getElementById("pedido").value = pedido;
 
-  //    genero el pdf
+  //    bajo el pdf
+  //crearPFD(pedido);
 
-  var doc = new jsPDF();
-  doc.setFontSize(8);
-  doc.text(10, 10, pedido, { maxWidth: 80 });
-  doc.save("Presupuesta de fotocopias.pdf");
+  crearPDF(pedido);
 }
 
+// capturo el formulario a la espera del submit
 const formulario = document.getElementById("presupuesto");
 
 formulario.addEventListener("submit", function (event) {
   event.preventDefault();
   leerPresupuesto();
 });
+
+//    genero el pdf
+function crearPDF(pedido) {
+  var doc = new jsPDF();
+  doc.setFontSize(8);
+  doc.text(10, 10, pedido, { maxWidth: 80 });
+  doc.save("Presupuesta de fotocopias.pdf");
+}

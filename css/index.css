@@ -189,7 +189,9 @@ body {
 .grupo1 {
   width: 50%;
 }
-
+#descargarPDF {
+  display: none;
+}
 /*    main contacto    */
 
 .contacto__container {
