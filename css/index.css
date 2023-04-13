@@ -76,17 +76,17 @@ body {
 .main__container {
   position: relative;
 }
-.productos__title{
-  color: blue
+.productos__title {
+  color: blue;
 }
-.libreria__title{
-  color: blue
+.libreria__title {
+  color: blue;
 }
-.jugueteria__title{
-  color: blue
+.jugueteria__title {
+  color: blue;
 }
-.fotocopias__title{
-  color: blue
+.fotocopias__title {
+  color: blue;
 }
 .productos__libreria1 {
   width: 40%;
@@ -175,6 +175,11 @@ body {
   font-size: 30px;
   margin-bottom: 30px;
   color: #0927ae;
+}
+#presupuesto {
+  display: flex;
+  justify-content: start;
+  column-gap: 25%;
 }
 
 /*    main contacto    */
@@ -307,7 +312,7 @@ div form {
   }
 
   .nav__link {
-    padding: 5px;
+    padding: 10px;
   }
   /*       main index    */
 
@@ -343,7 +348,7 @@ div form {
 @media (max-width: 640px) {
   .header__container {
     width: 100%;
-    height: 60px;
+    height: 70px;
   }
   .head__group {
     display: flex;
@@ -360,7 +365,7 @@ div form {
   }
 
   .nav__link {
-    padding: 2px;
+    padding: 5px;
   }
   .header__logo {
     display: none;
@@ -371,8 +376,14 @@ div form {
     font-size: 0.9rem;
   }
 
-   /*       main contacto   */
-   .mapa {
+  /*      cotiar      */
+
+  #presupuesto {
+    display: block;
+  }
+
+  /*       main contacto   */
+  .mapa {
     width: 50%;
   }
 

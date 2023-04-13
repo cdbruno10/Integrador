@@ -31,6 +31,7 @@
       crossorigin="anonymous"
     />
   </head>
+
   <body>
     <header class="header__container">
       <div class="container">
@@ -83,77 +84,92 @@
         <div class="cotizar__container">
           <h2 class="cotizar__title">Cotizar Fotocopias</h2>
           <form action="" id="presupuesto">
-            <label for="nombre">Nombre del cliente:</label><br />
-            <input type="text" name="nombre" id="nombre" required /><br /><br />
-            <label for="material">Tipo de papel:</label>
-            <select name="material" id="material">
-              <option value="comun">Comun</option>
-              <option value="fotoMate">Fotografico mate</option>
-              <option value="fotoSati">Fotografico satinado</option>
-              <option value="adhesivo">Adhesivo</option>
-            </select>
-            <br />
-            <br />
-            <label for="colorNegro">Negro / Color :</label><br />
-            <input
-              type="radio"
-              name="colorNegro"
-              id="colorNegro"
-              value="negro"
-              required
-            />
-            <label for="colorNegro">Negro</label><br />
-            <input
-              type="radio"
-              name="colorNegro"
-              id="colorNegro"
-              value="color"
-            />
-            <label for="colorNegro">Color</label><br />
-            <br />
-            <label for="tamanios">Tamaño de la hoja :</label><br />
-            <input
-              type="radio"
-              name="tamanio"
-              id="tamanio"
-              value="A4"
-              required
-            />
-            <label for="tamanio">A4</label><br />
-            <input type="radio" name="tamanio" id="tamanio" value="A3" />
-            <label for="tamanio">A3</label><br />
-            <input type="radio" name="tamanio" id="tamanio" value="oficio" />
-            <label for="tamanio">Oficio</label><br />
-            <br />
-            <label for="cantidad">Cantidad de copias:</label><br />
-            <input
-              type="number"
-              name="cantidad"
-              id="cantidad"
-              min="1"
-              value="1"
-            /><br />
-            <br />
-            <label for="encuadernado">Encuadernado: </label>
-            <select name="encuadernado" id="encuadernado" required>
-              <option value="">Seleccione una opción</option>
-              <option value="sin">No</option>
-              <option value="con">Si</option>
-            </select>
-            <br />
-            <br />
+            <div>
+              <label for="nombre">Nombre del cliente:</label><br />
+              <input
+                type="text"
+                name="nombre"
+                id="nombre"
+                required
+              /><br /><br />
+              <label for="material">Tipo de papel:</label>
+              <br />
+              <select name="material" id="material">
+                <option value="comun">Comun</option>
+                <option value="fotoMate">Fotografico mate</option>
+                <option value="fotoSati">Fotografico satinado</option>
+                <option value="adhesivo">Adhesivo</option>
+              </select>
+              <br />
+              <br />
+              <label for="colorNegro">Negro / Color :</label><br />
+              <input
+                type="radio"
+                name="colorNegro"
+                id="colorNegro"
+                value="negro"
+                required
+              />
+              <label for="colorNegro">Negro</label><br />
+              <input
+                type="radio"
+                name="colorNegro"
+                id="colorNegro"
+                value="color"
+              />
+              <label for="colorNegro">Color</label><br />
+              <br />
+            </div>
+            <div>
+              <label for="tamanios">Tamaño de la hoja :</label><br />
+              <input
+                type="radio"
+                name="tamanio"
+                id="tamanio"
+                value="A4"
+                required
+              />
+              <label for="tamanio">A4</label><br />
+              <input type="radio" name="tamanio" id="tamanio" value="A3" />
+              <label for="tamanio">A3</label><br />
+              <input type="radio" name="tamanio" id="tamanio" value="oficio" />
+              <label for="tamanio">Oficio</label><br />
+              <br />
+              <label for="cantidad">Cantidad de copias:</label><br />
+              <input
+                type="number"
+                name="cantidad"
+                id="cantidad"
+                min="1"
+                value="1"
+              /><br />
+              <br />
+              <label for="encuadernado">Encuadernado: </label>
+              <br />
+              <select name="encuadernado" id="encuadernado" required>
+                <option value="">Seleccione una opción</option>
+                <option value="sin">No</option>
+                <option value="con">Si</option>
+              </select>
+              <br />
+              <br />
+            </div>
+          </form>
+          <form>
             <label for="comentarios">Comentarios</label><br />
             <textarea
               name="comentarios"
               id="comentarios"
-              cols="30"
-              rows="3"
+              cols="100%"
+              rows="1"
             ></textarea
             ><br />
+            <br />
             <input type="submit" value="Enviar" />
             <input type="reset" value="Limpiar" />
             <br />
-            <textarea name="pedido" id="pedido" cols="120" rows="2"></textarea>
+            <br />
+            <textarea name="pedido" id="pedido" cols="100%" rows="3"></textarea>
           </form>
         </div>
       </div>
