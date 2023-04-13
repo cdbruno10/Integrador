@@ -36,6 +36,7 @@ body {
   flex-direction: row;
   align-items: flex-end;
   height: 100%;
+  width: 100%;
   justify-content: space-between;
 }
 
@@ -58,13 +59,13 @@ body {
   padding: 0 !important;
   display: flex;
   list-style: none;
-  font-size: 1.5em;
 }
 
 .nav__link {
   color: var(--color5);
   text-decoration: none;
-  padding: 20px;
+  padding: 10px;
+  font-size: 17px !important;
 }
 
 .nav__link:hover {
@@ -75,53 +76,6 @@ body {
 
 .main__container {
   position: relative;
-}
-.productos__title {
-  color: blue;
-}
-.libreria__title {
-  color: blue;
-}
-.jugueteria__title {
-  color: blue;
-}
-.fotocopias__title {
-  color: blue;
-}
-.productos__libreria {
-  width: 40%;
-  height: 30%;
-  margin: 20px 30px;
-}
-.productos__jugueteria{
-  width: 40%;
-  height: 30%;
-  margin: 20px 30px;
-}
-/*.productos__libreria2 {
-  width: 40%;
-  padding: 50px 0 60px 0;
-  margin-left: 50px;
-  margin-right: 45px;
-}*/
-
-.productos__juguetes1 {
-  width: 35%;
-  padding: 50px 0 60px 0;
-  margin-left: 50px;
-  margin-right: 45px;
-}
-.productos__fotocopias1 {
-  width: 30%;
-  padding: 50px 0 60px 0;
-  margin-left: 50px;
-  margin-right: 45px;
-}
-.productos__fotocopias2 {
-  width: 30%;
-  padding: 50px 0 60px 0;
-  margin-left: 50px;
-  margin-right: 45px;
 }
 
 .container__bg {
@@ -170,11 +124,59 @@ body {
 
 /*    main productos    */
 
+.productos__title {
+  color: blue;
+}
+.libreria__title {
+  color: blue;
+}
+.jugueteria__title {
+  color: blue;
+}
+.fotocopias__title {
+  color: blue;
+}
+.productos__libreria {
+  width: 40%;
+  height: 30%;
+  margin: 20px 30px;
+}
+.productos__jugueteria {
+  width: 40%;
+  height: 30%;
+  margin: 20px 30px;
+}
+/*.productos__libreria2 {
+  width: 40%;
+  padding: 50px 0 60px 0;
+  margin-left: 50px;
+  margin-right: 45px;
+}*/
+
+.productos__juguetes1 {
+  width: 35%;
+  padding: 50px 0 60px 0;
+  margin-left: 50px;
+  margin-right: 45px;
+}
+.productos__fotocopias1 {
+  width: 30%;
+  padding: 50px 0 60px 0;
+  margin-left: 50px;
+  margin-right: 45px;
+}
+.productos__fotocopias2 {
+  width: 30%;
+  padding: 50px 0 60px 0;
+  margin-left: 50px;
+  margin-right: 45px;
+}
+
 /*    main cotizar    */
 
 .cotizar__container {
   padding-top: 50px;
-  font-size: 20px;
+  font-size: 19px;
   padding: 40px 0 40px;
 }
 .cotizar__title {
@@ -319,12 +321,9 @@ iframe {
     height: 120px;
   }
 
-  .nav__list {
-    font-size: 1.3em;
-  }
-
   .nav__link {
     padding: 10px;
+    font-size: 14px !important;
   }
   /*       main index    */
 
@@ -370,13 +369,11 @@ iframe {
     justify-content: space-around;
   }
   .nav__container {
-    padding-left: 10px;
-  }
-  .nav__list {
-    font-size: 0.9em;
+    padding-left: 5px;
   }
 
   .nav__link {
+    font-size: 13px !important;
     padding: 5px;
   }
   .header__logo {
