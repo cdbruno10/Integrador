@@ -76,6 +76,18 @@ body {
 .main__container {
   position: relative;
 }
+.productos__title{
+  color: blue
+}
+.libreria__title{
+  color: blue
+}
+.jugueteria__title{
+  color: blue
+}
+.fotocopias__title{
+  color: blue
+}
 .productos__libreria1 {
   width: 40%;
   padding: 50px 0 60px 0;
