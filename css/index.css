@@ -353,6 +353,11 @@ iframe {
     height: 100%;
   }
 }
+@media (max-width: 640px) and (orientation: landscape) {
+  .header__container {
+    position: static;
+  }
+}
 @media (max-width: 640px) {
   .header__container {
     width: 100%;
