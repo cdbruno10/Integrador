@@ -84,7 +84,7 @@
         <div class="cotizar__container">
           <h2 class="cotizar__title">Cotizar Fotocopias</h2>
           <form action="" id="presupuesto">
-            <div>
+            <div class="grupo1">
               <label for="nombre">Nombre del cliente:</label><br />
               <input
                 type="text"
@@ -120,7 +120,7 @@
               <label for="colorNegro">Color</label><br />
               <br />
             </div>
-            <div>
+            <div class="grupo2">
               <label for="tamanios">Tamaño de la hoja :</label><br />
               <input
                 type="radio"
@@ -154,22 +154,27 @@
               <br />
               <br />
             </div>
-          </form>
-          <form>
-            <label for="comentarios">Comentarios</label><br />
-            <textarea
-              name="comentarios"
-              id="comentarios"
-              cols="100%"
-              rows="1"
-            ></textarea
-            ><br />
-            <br />
-            <input type="submit" value="Enviar" />
-            <input type="reset" value="Limpiar" />
-            <br />
-            <br />
-            <textarea name="pedido" id="pedido" cols="100%" rows="3"></textarea>
+            <div class="grupo3">
+              <label for="comentarios">Comentarios</label><br />
+              <textarea
+                name="comentarios"
+                id="comentarios"
+                cols="100%"
+                rows="1"
+              ></textarea
+              ><br />
+              <br />
+              <input type="submit" value="Enviar" />
+              <input type="reset" value="Limpiar" />
+              <br />
+              <br />
+              <textarea
+                name="pedido"
+                id="pedido"
+                cols="100%"
+                rows="3"
+              ></textarea>
+            </div>
           </form>
         </div>
       </div>

@@ -178,8 +178,11 @@ body {
 }
 #presupuesto {
   display: flex;
+  flex-wrap: wrap;
   justify-content: start;
-  column-gap: 25%;
+}
+.grupo1 {
+  width: 50%;
 }
 
 /*    main contacto    */
