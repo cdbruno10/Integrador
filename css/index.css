@@ -120,6 +120,16 @@ body {
   padding-top: 50px;
 }
 
+.carousel-control-prev-icon {
+  
+  filter: invert(108%); 
+                                                                                                                    
+}
+                                                                                                                   
+.carousel-control-next-icon {
+  filter: invert(108%);
+}
+
 /*    main empresa    */
 
 /*    main productos    */
