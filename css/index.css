@@ -178,6 +178,11 @@ body {
 .cotizar__container {
   font-size: 19px;
   padding: 40px 0 40px;
+  color: #0927ae;
+}
+
+.cotizar__casilleros{
+  color: #0927ae;
 }
 .cotizar__title {
   font-size: 30px;
