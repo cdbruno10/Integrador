@@ -355,7 +355,7 @@ iframe {
     height: 100%;
   }
 }
-@media (max-width: 767px) and (orientation: landscape) {
+@media (max-width: 739px) and (orientation: landscape) {
   .header__container {
     position: static;
   }
