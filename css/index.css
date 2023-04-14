@@ -125,31 +125,42 @@ body {
 /*    main productos    */
 
 .productos__title {
-  padding: 30px 0 30px;
-  color: blue;
+  padding: 30px 0 20px;
+  color:  #3a1cac;
 }
 .libreria__title,
 .jugueteria__title,
-.fotocopias__title {
-  color: blue;
+.fotocopias__title,
+.fotocopias__texto {
+  color:  #3a1cac;
 }
-
+.libreria__title{
+  font-size: 30px;
+  padding-top: 30px;
+}
+.jugueteria__title{
+  font-size: 30px;
+ margin-top: 10px;
+}
+.fotocopias__title{
+  font-size: 30px;
+  margin-top: 30px;
+}
+.fotocopias__texto{
+  font-size: 20px;
+}
 .productos__libreria {
   width: 40%;
   height: 30%;
   margin: 20px 30px;
+  font-size: 30px;
 }
 .productos__jugueteria {
   width: 40%;
   height: 30%;
   margin: 20px 30px;
 }
-/*.productos__libreria2 {
-  width: 40%;
-  padding: 50px 0 60px 0;
-  margin-left: 50px;
-  margin-right: 45px;
-}*/
+
 
 .productos__juguetes1 {
   width: 35%;
@@ -174,12 +185,17 @@ body {
 
 .cotizar__container {
   font-size: 19px;
-  padding: 40px 0 40px;
+  padding: 30px 0 40px;
+  color: #3a1cac;
+}
+
+.cotizar__casilleros{
+  color: #3a1cac;
 }
 .cotizar__title {
   font-size: 30px;
   margin-bottom: 30px;
-  color: #0927ae;
+  color: #3a1cac;
 }
 #presupuesto {
   display: flex;
@@ -208,7 +224,7 @@ body {
   width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
-  color: #0927ae;
+  color: #3a1cac;
 }
 
 .contacto {
@@ -221,25 +237,33 @@ iframe {
 
 /*  MAIN EMPRESA */
 
-.empresa__main__title1 {
-  padding-top: 40px;
+.empresa__main__title{
+  font-size: 30px;
+  padding-top: 30px;
   color: #3a1cac;
 }
-.empresa__main__title2 {
-  margin-top: 30px;
-  color: #3a1cac;
-}
+
 .empresa__texto {
-  font-size: 22px;
+  font-size: 20px;
   margin-top: 30px;
   color: #3a1cac;
   text-align: justify;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.container__foto{
+  display: flex;
+  justify-content: center;
+  
 }
 .empresa__foto {
-  width: 35%;
+  display: flex;
+  justify-content: center;
+  width: 50%;
   padding: 50px 0 60px 0;
-  margin-left: 8%;
-  margin-right: 70px;
+ 
+ 
+
 }
 
 .empresa__foto2 {
