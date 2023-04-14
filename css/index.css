@@ -126,27 +126,27 @@ body {
 
 .productos__title {
   padding: 30px 0 20px;
-  color:  #3a1cac;
+  color: #3a1cac;
 }
 .libreria__title,
 .jugueteria__title,
 .fotocopias__title,
 .fotocopias__texto {
-  color:  #3a1cac;
+  color: #3a1cac;
 }
-.libreria__title{
+.libreria__title {
   font-size: 30px;
   padding-top: 30px;
 }
-.jugueteria__title{
+.jugueteria__title {
   font-size: 30px;
- margin-top: 10px;
+  margin-top: 10px;
 }
-.fotocopias__title{
+.fotocopias__title {
   font-size: 30px;
   margin-top: 30px;
 }
-.fotocopias__texto{
+.fotocopias__texto {
   font-size: 20px;
 }
 .productos__libreria {
@@ -160,7 +160,6 @@ body {
   height: 30%;
   margin: 20px 30px;
 }
-
 
 .productos__juguetes1 {
   width: 35%;
@@ -189,7 +188,7 @@ body {
   color: #3a1cac;
 }
 
-.cotizar__casilleros{
+.cotizar__casilleros {
   color: #3a1cac;
 }
 .cotizar__title {
@@ -237,7 +236,7 @@ iframe {
 
 /*  MAIN EMPRESA */
 
-.empresa__main__title{
+.empresa__main__title {
   font-size: 30px;
   padding-top: 30px;
   color: #3a1cac;
@@ -251,19 +250,15 @@ iframe {
   padding-left: 25px;
   padding-right: 25px;
 }
-.container__foto{
+.container__foto {
   display: flex;
   justify-content: center;
-  
 }
 .empresa__foto {
   display: flex;
   justify-content: center;
   width: 50%;
   padding: 50px 0 60px 0;
- 
- 
-
 }
 
 .empresa__foto2 {
@@ -379,7 +374,7 @@ iframe {
     height: 100%;
   }
 }
-@media (max-width: 739px) and (orientation: landscape) {
+@media (min-width: 665px) and (orientation: landscape) {
   .header__container {
     position: static;
   }
