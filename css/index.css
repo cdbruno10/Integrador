@@ -134,6 +134,18 @@ body {
 .fotocopias__texto {
   color:  #3a1cac;
 }
+.libreria__title{
+  font-size: 30px;
+  padding-top: 30px;
+}
+.jugueteria__title{
+  font-size: 30px;
+ margin-top: 10px;
+}
+.fotocopias__title{
+  font-size: 30px;
+  margin-top: 30px;
+}
 .fotocopias__texto{
   font-size: 20px;
 }
@@ -141,6 +153,7 @@ body {
   width: 40%;
   height: 30%;
   margin: 20px 30px;
+  font-size: 30px;
 }
 .productos__jugueteria {
   width: 40%;
@@ -181,6 +194,8 @@ body {
 }
 .cotizar__title {
   font-size: 30px;
+  
+  
   margin-bottom: 30px;
   color: #3a1cac;
 }
@@ -224,16 +239,12 @@ iframe {
 
 /*  MAIN EMPRESA */
 
-.empresa__main__title1 {
-  font-size: 35px;
+.empresa__main__title{
+  font-size: 30px;
   padding-top: 30px;
   color: #3a1cac;
 }
-.empresa__main__title2 {
-  font-size: 30px;
-  margin-top: 20px;
-  color: #3a1cac;
-}
+
 .empresa__texto {
   font-size: 20px;
   margin-top: 30px;
